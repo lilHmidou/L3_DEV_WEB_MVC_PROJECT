@@ -21,7 +21,7 @@
 
             $results = $this->db->resultSet();
 
-            return $results;
+            return $results; 
         }
 
         public function addPost($data){
